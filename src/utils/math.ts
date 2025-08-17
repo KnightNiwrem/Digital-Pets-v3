@@ -11,10 +11,10 @@
  * @returns a random integer between [min, max]
  */
 export function randomInt(min: number, max: number): number {
-	if (!Number.isSafeInteger(min) || !Number.isSafeInteger(max)) {
-		throw new TypeError('randomInt: min and max must be safe integers');
-	}
+  if (!Number.isSafeInteger(min) || !Number.isSafeInteger(max)) {
+    throw new TypeError('randomInt: min and max must be safe integers');
+  }
   const [low, high] = min > max ? [max, min] : [min, max];
-  const range = high - low + 1
-	return Math.floor(Math.random() * range) + low;
+  const range = high - low + 1;
+  return Math.floor(Math.random() * range) + low;
 }
