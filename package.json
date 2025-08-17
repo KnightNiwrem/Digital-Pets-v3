@@ -7,8 +7,8 @@
     "dev": "bun --hot src/index.tsx",
     "start": "NODE_ENV=production bun src/index.tsx",
     "build": "bun run build.ts",
-    "lint": "eslint --max-warnings=0 \"src/**/*.{ts,tsx,js,jsx}\"",
-    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint": "eslint --max-warnings=0 --flag unstable_native_nodejs_ts_config \"src/**/*.{ts,tsx,js,jsx}\"",
+    "lint:fix": "eslint --fix --flag unstable_native_nodejs_ts_config \"src/**/*.{ts,tsx,js,jsx}\"",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit"
