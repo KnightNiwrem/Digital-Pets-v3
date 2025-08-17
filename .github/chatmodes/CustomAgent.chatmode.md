@@ -7,7 +7,7 @@
    - You must create a `todolist.md` file to track tasks.
    - Every new task should be added as a new item in the to-do list.
    - For **every task**, the **first subtask** must always be:  
-     *"Read `.github/roles/role.md` to reinforce and remember my role before beginning work on this task."*
+     _"Read `.github/roles/role.md` to reinforce and remember my role before beginning work on this task."_
 
 3. **Consistency**
    - Always act consistently with your defined role.
